@@ -184,7 +184,12 @@ Threads: Nvidia's financing loop looks strained ([CEO exit report](https://old.r
 
 ## 📊 Report Generation Stats
 
-- **claude-fable-5-2** (pipeline): 8 calls | input 24,006 | output 64,662 | cache read 0 | cache write 23,990
-- **claude-haiku-5-5** (pipeline): 43 calls | input 255,021 | output 80,389 | cache read 43,444 | cache write 211,491
-- **claude-opus-5-5** (pipeline): 2 calls | input 96,120 | output 23,444 | cache read 750 | cache write 95,366
-- **claude-sonnet-5-5** (writer agent, so far): 11 API calls | 22 messages | input 22 | output 125 | cache read 899,196 | cache write 126,530
+| Model | Calls | Input | Output | Cache read | Cache write |
+|:--|--:|--:|--:|--:|--:|
+| **Haiku 5.5**<br><small>articles · repos · Reddit · data</small> | 43 | 255k | 80.4k | 43.4k | 211k |
+| **Opus 5.5**<br><small>brief · review</small> | 2 | 96.1k | 23.4k | 750 | 95.4k |
+| **Sonnet 5.5**<br><small>writing</small> | 20 | 40 | 1.8k | 2.04M | 136k |
+| **Total** | **65** | **351k** | **106k** | **2.08M** | **443k** |
+{: .stats}
+
+Tokens: k = thousand, M = million. Input = uncached tokens. Writing figures run up to the stats step.

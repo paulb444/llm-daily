@@ -32,3 +32,9 @@ hr{border:0;border-top:1px solid var(--border);margin:1.5em 0}
 .pager{display:flex;justify-content:space-between;gap:8px;font-size:.9em;margin:.8em 0}
 .archive{list-style:none;padding:0}.archive li{padding:.6em 0;border-bottom:1px solid var(--border)}
 .teaser{color:var(--muted);font-size:.9em}
+table.stats{table-layout:auto;font-size:.85em;font-variant-numeric:tabular-nums;border:0}
+table.stats th,table.stats td{border:0;border-bottom:1px solid var(--border);padding:.4em .35em;white-space:nowrap;overflow-wrap:normal}
+table.stats th{background:none;color:var(--muted);font-weight:600;font-size:.9em;white-space:normal;vertical-align:bottom}
+table.stats td:first-child{white-space:normal}
+table.stats td small{color:var(--muted);font-size:.85em;font-weight:400}
+table.stats tr:last-child td{border-bottom:0;border-top:2px solid var(--fg)}
