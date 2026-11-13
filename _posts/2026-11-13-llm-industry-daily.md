@@ -186,10 +186,10 @@ Threads: Nvidia's financing loop looks strained ([CEO exit report](https://old.r
 
 | Model | Calls | Input | Output | Cache read | Cache write |
 |:--|--:|--:|--:|--:|--:|
-| **Haiku 5.5**<br><small>articles · repos · Reddit · data</small> | 43 | 255k | 80.4k | 43.4k | 211k |
-| **Opus 5.5**<br><small>brief · review</small> | 2 | 96.1k | 23.4k | 750 | 95.4k |
+| **Haiku 5.5**<br><small>articles, repos, Reddit, data</small> | 43 | 255k | 80.4k | 43.4k | 211k |
+| **Opus 5.5**<br><small>brief, review</small> | 2 | 96.1k | 23.4k | 750 | 95.4k |
 | **Sonnet 5.5**<br><small>writing</small> | 20 | 40 | 1.8k | 2.04M | 136k |
 | **Total** | **65** | **351k** | **106k** | **2.08M** | **443k** |
 {: .stats}
 
-Tokens: k = thousand, M = million. Input = uncached tokens. Writing figures run up to the stats step.
+Tokens: k = thousand, M = million. Input = uncached tokens. Writing totals exclude the final stats step.
