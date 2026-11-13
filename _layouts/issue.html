@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<nav class="pager">{% if page.previous %}<a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.date | date: "%b %-d" }}</a>{% endif %}<a href="{{ '/' | relative_url }}">Archive</a>{% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.date | date: "%b %-d" }} &rarr;</a>{% endif %}</nav>
+<article id="issue">{{ content }}</article>
+<nav class="pager">{% if page.previous %}<a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.date | date: "%b %-d" }}</a>{% endif %}<a href="{{ '/' | relative_url }}">Archive</a>{% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.date | date: "%b %-d" }} &rarr;</a>{% endif %}</nav>
+<script src="{{ '/assets/issue.js' | relative_url }}"></script>

@@ -1,0 +1,15 @@
+title: LLM Industry Daily
+description: Daily AI/LLM industry digest
+baseurl: /llm-daily
+url: https://paulb444.github.io
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+permalink: /:year/:month/:day/
+plugins:
+  - jekyll-feed
+feed:
+  path: feed.xml
+exclude: [README.md]
